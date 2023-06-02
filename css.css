@@ -14,7 +14,7 @@
   --body-font: "Poppins", sans-serif;
   --hover-menu-bg: rgba(12 15 25 / 30%);
   --content-title-color: #999ba5;
-  --content-bg: rgb(146 151 179 / 13%);
+  --content-bg: rgb(146 151 179 / 13%);/*mesajes*/
   --button-inactive: rgb(249 250 251 / 55%);
   --dropdown-bg: #21242d;
   --dropdown-hover: rgb(42 46 60);
@@ -435,6 +435,7 @@ body.light-mode .video-bg:before {
   overflow: auto;
   background-color: var(--theme-bg-color);/*lo necesito*/
   
+  
 }
 @media screen and (max-width: 510px) {
   .content-wrapper {
@@ -459,6 +460,8 @@ body.light-mode .video-bg:before {
   pointer-events: none;
   transition: 0.3s;
   background-color: var(--overlay-bg);
+  
+ 
 }
 
 .overlay-app {
@@ -469,9 +472,11 @@ body.light-mode .video-bg:before {
   top: 0;
   pointer-events: all;
   background-color: rgba(36, 39, 59, 0.8);
+  
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
+  
 }
 .overlay-app.is-active {
   visibility: visible;
